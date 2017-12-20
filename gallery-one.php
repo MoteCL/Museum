@@ -1,0 +1,235 @@
+<html class="wide wow-animation desktop landscape js csstransforms rd-navbar-static-linked" lang="en"><head>
+    <!-- Site Title-->
+    <title>Grid Album Gallery</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Condensed:400,700%7CLato:300,400,300italic,700%7CMontserrat:900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdi.css">
+    <link rel="stylesheet" href="css/fl-bigmug-line.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <!-- Page preloader-->
+
+    <!-- Page-->
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header bg-gray-dark breadcrumbs-custom-wrap">
+        <div class="rd-navbar-wrap rd-navbar-default" style="height: 78px;">
+          <nav class="rd-navbar rd-navbar-original rd-navbar-static" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="2px" data-lg-stick-up-offset="2px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle toggle-original" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-197x70.png" alt="" width="197" height="70"><img class="logo-inverse" src="images/logo-inverse-197x70.png" alt="" width="197" height="70"></a></div>
+              </div>
+              <div class="rd-navbar-aside-right">
+                <div class="rd-navbar-nav-wrap toggle-original-elements">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li><a href="index.php">Home</a>
+                    </li>
+                    <li><a href="about.php">About Us</a>
+                    </li>
+
+                    <li class="rd-navbar--has-dropdown rd-navbar-submenu active"><a href="#">Gallery</a><span class="rd-navbar-submenu-toggle"></span>
+                      <!-- RD Navbar Dropdown-->
+                      <ul class="rd-navbar-dropdown">
+                        <li><a href="gallery-one.php">Gallery-One</a>
+                        </li>
+                        <li><a href="gallery-two.php">Gallery-Two</a>
+                        </li>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="rd-navbar--has-megamenu rd-navbar-submenu"><a href="#">Pages</a><span class="rd-navbar-submenu-toggle"></span>
+                      <!-- RD Navbar Megamenu-->
+                      <ul class="rd-navbar-megamenu rd-navbar-megamenu-banner rd-navbar-open-right">
+                        <li><img src="images/image-7-570x380.jpg" alt="" width="570" height="380">
+                        </li>
+                        <li>
+                          <ul class="rd-megamenu-list">
+                            <li><a href="404-page.html">404 Page</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul class="rd-megamenu-list">
+                            <li><a href="our-history.html">Our History</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <ul class="rd-megamenu-list">
+                            <li><a href="accordions.html">Accordions</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="contacts.html">Contacts</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Breadcrumbs-->
+        <section class="breadcrumbs-custom breadcrumbs-custom-svg">
+          <div class="shell">
+            <p class="breadcrumbs-custom-subtitle">Hover Title</p>
+            <p class="heading-1 breadcrumbs-custom-title"> Gallery</p>
+            <ul class="breadcrumbs-custom-path">
+              <li><a href="index.php">Home</a></li>
+              <li class="active">Gallery One</li>
+            </ul>
+          </div>
+        </section>
+
+      </header>
+
+        <!-- Gallery -->
+            <section class="section section-lg text-center bg-white">
+              <div class="shell-wide">
+                <h3>Our Gallery</h3>
+                <div class="isotope-wrap range range-0 range-sm-30">
+
+                  <div class="cell-lg-12">
+                    <div class="isotope isotope--loaded" data-isotope-layout="fitRows" data-isotope-group="gallery" style="position: relative; height: 410px;">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1" data-lightgallery="group" style="position: absolute; left: 0px; top: 0px;">
+                          <ul class="lightgallery-album">
+                            <li><a class="gallery-item" href="images/gallery/1.jpg" data-lightgallery="group-item" data-tweet-text="share on twitter 1" data-sub-html="<h4>Fading Light</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>">
+                                <div class="gallery-item-image">
+                                  <figure>
+                                    <img src="images/gallery/1.jpg" alt="" width="570" height="380">
+                                  </figure>
+                                  <div class="caption">
+                                    <p class="caption-title">Album #1</p>
+                                    <p class="caption-text">At our museum you can explore a variety of remains from .</p>
+                                  </div>
+                                </div></a>
+                            </li>
+                            <li><a class="gallery-item" href="images/gallery/2.jpg" data-lightgallery="group-item" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                                <div class="gallery-item-image">
+                                  <figure><img src="images/gallery/2.jpg" alt="" width="570" height="380">
+                                  </figure>
+                                  <div class="caption">
+                                    <p class="caption-title">photo #6</p>
+                                    <p class="caption-text">At our museum you can explore a variety of remains from the Jurassic period.</p>
+                                  </div>
+                                </div></a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2" data-lightgallery="group" style="position: absolute; left: 389px; top: 0px;">
+                          <ul class="lightgallery-album">
+                            <li><a class="gallery-item" href="images/gallery/3.jpg" data-lightgallery="group-item">
+                                <div class="gallery-item-image">
+                                  <figure><img src="images/gallery/3.jpg" alt="" width="570" height="380">
+                                  </figure>
+                                  <div class="caption">
+                                    <p class="caption-title">Album #2</p>
+                                    <p class="caption-text">At our museum you can explore a variety of remains from.</p>
+                                  </div>
+                                </div></a>
+                            </li>
+                            <li><a class="gallery-item" href="images/gallery/4.jpg" data-lightgallery="group-item">
+                                <div class="gallery-item-image">
+                                  <figure><img src="images/gallery/4.jpg" alt="" width="570" height="380">
+                                  </figure>
+                                  <div class="caption">
+                                    <p class="caption-title">photo #6</p>
+                                    <p class="caption-text">At our museum you can explore a variety of remains from.</p>
+                                  </div>
+                                </div></a>
+                            </li>
+                            <li><a class="gallery-item" href="images/gallery/5.jpg" data-lightgallery="group-item">
+                                <div class="gallery-item-image">
+                                  <figure><img src="images/gallery/5.jpg" alt="" width="570" height="380">
+                                  </figure>
+                                  <div class="caption">
+                                    <p class="caption-title">photo #6</p>
+                                    <p class="caption-text">At our museum you can explore a variety of remains from .</p>
+                                  </div>
+                                </div></a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 3" data-lightgallery="group" style="position: absolute; left: 779px; top: 0px;">
+                          <ul class="lightgallery-album">
+                            <li><a class="gallery-item" href="images/gallery/7.jpg" data-lightgallery="group-item">
+                                <div class="gallery-item-image">
+                                  <figure><img src="images/gallery/7.jpg" alt="" width="570" height="380">
+                                  </figure>
+                                  <div class="caption">
+                                    <p class="caption-title">Album #3</p>
+                                    <p class="caption-text">At our museum you can explore a variety of remains from.</p>
+                                  </div>
+                                </div></a>
+                            </li>
+                            <li><a class="gallery-item" href="images/gallery/6.jpg" data-lightgallery="group-item">
+                                <div class="gallery-item-image">
+                                  <figure><img src="images/gallery/6.jpg" alt="" width="570" height="380">
+                                  </figure>
+                                  <div class="caption">
+                                    <p class="caption-title">photo #6</p>
+                                    <p class="caption-text">At our museum you can explore a variety of remains from .</p>
+                                  </div>
+                                </div></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      <!-- Page Footer-->
+      <!-- Footer Minimal -->
+      <footer class="section page-footer page-footer-minimal text-center bg-white">
+        <div class="shell shell-wide">
+          <div class="range range-xs-center range-sm-middle range-30">
+            <div class="cell-sm-10 cell-md-7 cell-lg-4 text-lg-left"><a href="index.html"><img class="default-logo" src="images/logo-default-197x70.png" alt="" width="197" height="70"><img class="inverse-logo" src="images/logo-inverse-197x70.png" alt="" width="197" height="70"></a></div>
+            <div class="cell-sm-10 cell-md-7 cell-lg-4">
+              <p class="right">©&nbsp;<span class="copyright-year">2017</span> All Rights Reserved&nbsp;<a href="#">Terms of Use</a>&nbsp;and&nbsp;<a href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+            <div class="cell-sm-10 cell-md-7 cell-lg-4 text-lg-right">
+              <ul class="group-xs group-middle">
+                <li><a class="icon icon-md-middle icon-circle icon-secondary-5-filled-type-2 mdi mdi-facebook" href="#"></a></li>
+                <li><a class="icon icon-md-middle icon-circle icon-secondary-5-filled-type-2 mdi mdi-twitter" href="#"></a></li>
+                <li><a class="icon icon-md-middle icon-circle icon-secondary-5-filled-type-2 mdi mdi-instagram" href="#"></a></li>
+                <li><a class="icon icon-md-middle icon-circle icon-secondary-5-filled-type-2 mdi mdi-google" href="#"></a></li>
+                <li><a class="icon icon-md-middle icon-circle icon-secondary-5-filled-type-2 mdi mdi-linkedin" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+     <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="js/lightgallery-all.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery-album').lightGallery();
+        });
+        </script>
+
+<a href="#" id="ui-to-top" class="ui-to-top"></a></body></html>
